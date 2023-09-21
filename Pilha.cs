@@ -21,9 +21,4 @@ class Pilha<P>
             throw new InvalidOperationException("A pilha está vazia.");
         }
     }
-
-    public bool EstaVazia()
-    {
-        return pilha.Count >= 0;
-    }
 }
